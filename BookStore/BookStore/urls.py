@@ -1,5 +1,5 @@
 """
-URL configuration for Real_State project.
+URL configuration for BookStore project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -20,6 +20,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.homepage),
-    path("about/", views.about),
+    path("", views.Home_page),
+    path("Fiction/",views.Fiction_page),
 ]
